@@ -87,16 +87,13 @@
 
       transform: translate3d(0, 0, 0);
     }
-
-    .portrait {
-      width: 250px;
-      height: 250px;
-      background: url(../profile.jpg);
-      border-radius: 50%;
-      border: solid 3px $secondary-color;
-    }
   }
-
+  .portrait #im {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: solid 3px $secondary-color;
+  }
   .nav-item {
     transform: translate3d(600px, 0, 0);
     @include easeOut;

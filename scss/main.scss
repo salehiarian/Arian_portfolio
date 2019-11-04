@@ -85,9 +85,9 @@ main {
     "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr);
 
-  .bio-img {
+  .bio-image {
     grid-area: bioimage;
-    width: 100px;
+    width: 300px;
     margin: auto;
     border-radius: 50%;
     border: $secondary-color 3px solid;
@@ -117,6 +117,27 @@ main {
   }
 }
 
+// Work/Projects
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.8rem;
+
+  img {
+    width: 100%;
+    border: 3px #fff;
+
+    &:hover {
+      opacity: 0.5;
+      border-color: $secondary-color;
+      @include easeOut;
+    }
+  }
+}
+
+//Button Styles
+.btn {
+}
 #main-footer {
   text-align: center;
   padding: 1rem;
