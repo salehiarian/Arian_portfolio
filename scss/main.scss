@@ -100,13 +100,6 @@ main {
 
   .job-1 {
     grid-area: job1;
-
-    img {
-      width: 200px;
-      margin: auto;
-      border-radius: 50%;
-      border: $secondary-color 3px solid;
-    }
   }
 
   .job-2 {
