@@ -97,7 +97,19 @@ main {
     grid-area: bio;
     font-size: 1.5rem;
   }
+  .imagee {
+    background-color: #fff;
+    width: 160px;
+    margin: auto;
+    border-radius: 50%;
+    border: $secondary-color 3px solid;
 
+    &:hover {
+      opacity: 0.5;
+      border-color: $secondary-color;
+      @include easeOut;
+    }
+  }
   .job-1 {
     grid-area: job1;
   }
@@ -114,24 +126,6 @@ main {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
-  }
-}
-
-// Work/Projects
-.projects {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0.8rem;
-
-  a > img {
-    width: 100%;
-    border: 3px #fff solid;
-
-    &:hover {
-      opacity: 0.5;
-      border-color: $secondary-color;
-      @include easeOut;
-    }
   }
 }
 
@@ -185,6 +179,24 @@ main {
   background: lighten($primary-color, 52);
   color: #222;
   @include easeOut;
+}
+
+// Work/Projects
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.8rem;
+
+  a > img {
+    width: 100%;
+    border: 3px #fff solid;
+
+    &:hover {
+      opacity: 0.5;
+      border-color: $secondary-color;
+      @include easeOut;
+    }
+  }
 }
 #main-footer {
   text-align: center;
