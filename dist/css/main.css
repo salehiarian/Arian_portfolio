@@ -252,7 +252,7 @@ main#home h1 {
   grid-gap: 0.8rem;
 }
 .projects a > img {
-  height: 100px;
+  height: 300px;
   width: 100%;
   border: 3px #fff solid;
 }
