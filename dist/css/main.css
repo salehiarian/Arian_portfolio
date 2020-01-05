@@ -271,7 +271,7 @@ main#home h1 {
 
 .projectimg .projectname {
   visibility: hidden;
-  width: 120px;
+  width: 400px;
   background-color: black;
   color: #fff;
   text-align: center;
@@ -287,8 +287,8 @@ main#home h1 {
 .projectimg .projectname::after {
   content: "";
   position: absolute;
-  top: 100%;
-  left: 50%;
+  top: 0;
+  left: 0;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
