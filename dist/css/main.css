@@ -231,6 +231,7 @@ main#home h1 {
   border-color: #ee3a1a;
   transition: all 0.5s ease-out;
 }
+
 .about-info .job-1 {
   grid-area: job1;
 }
@@ -252,7 +253,7 @@ main#home h1 {
   grid-gap: 0.8rem;
 }
 .projects a > img {
-  height: 300px;
+  height: 280px;
   width: 100%;
   border: 3px #fff solid;
 }
@@ -261,7 +262,24 @@ main#home h1 {
   border-color: #ee3a1a;
   transition: all 0.5s ease-out;
 }
-
+.projects .projectname {
+  visibility: hidden;
+  width: 120px;
+  background-color: ee3a1a;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+}
+.projects .projectname {
+  width: 120px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+.projects:hover .projectname {
+  visibility: visible;
+}
 .boxes {
   display: flex;
   flex-wrap: wrap;

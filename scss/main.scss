@@ -159,7 +159,7 @@ main {
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0.2rem;
+  grid-gap: 0.7rem;
 
   a > img {
     height: 100px;
