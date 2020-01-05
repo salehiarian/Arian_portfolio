@@ -9,6 +9,7 @@
   "author": "Arian Salehi",
   "license": "MIT",
   "dependencies": {
+    "bootstrap-icons": "^1.0.0-alpha2",
     "node-sass": "^4.13.0"
   }
 }
