@@ -170,6 +170,11 @@ main {
       opacity: 0.5;
       border-color: $secondary-color;
       @include easeOut;
+
+      .projectname
+    }
+    .projectname{
+      
     }
   }
 }
