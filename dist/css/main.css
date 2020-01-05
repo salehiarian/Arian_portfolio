@@ -293,7 +293,7 @@ main#home h1 {
   margin-left: 5px;
   border-width: 5px;
   border-style: solid;
-  border-color: black transparent transparent transparent;
+  border-color: #ee3a1a transparent transparent transparent;
 }
 
 .projectimg:hover .projectname {
