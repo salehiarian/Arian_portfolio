@@ -219,7 +219,7 @@ main#home h1 {
   grid-area: bio;
   font-size: 1.5rem;
 }
-.about-info .imagee {
+.imagee {
   background-color: #fff;
   width: 160px;
   margin: auto;
