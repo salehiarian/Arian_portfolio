@@ -270,18 +270,19 @@ main#home h1 {
 }
 
 .projectimg .projectname {
+  font-weight: 500;
   visibility: hidden;
   width: 250px;
-  background-color: black;
-  color: #fff;
+  background-color: #ee3a1a;
+  color: rgb(0, 0, 0);
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
   position: absolute;
   z-index: 1;
-  /* bottom: 150%;
-  left: 50%; */
-  /* margin-left: -60px; */
+  bottom: 100%;
+  /* left: 50%; */
+  margin-left: 15px;
 }
 
 .projectimg .projectname::after {
