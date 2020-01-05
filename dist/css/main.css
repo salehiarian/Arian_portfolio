@@ -262,7 +262,7 @@ main#home h1 {
   border-color: #ee3a1a;
   transition: all 0.5s ease-out;
 }
-.projects .projectname {
+/* .projects .projectname {
   visibility: hidden;
   width: 120px;
   background-color: ee3a1a;
@@ -279,7 +279,7 @@ main#home h1 {
 }
 .projects:hover .projectname {
   visibility: visible;
-}
+} */
 .boxes {
   display: flex;
   flex-wrap: wrap;
